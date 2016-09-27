@@ -13,6 +13,7 @@ DATABASES = {
 
 
 STATIC_URL = '/static/'
+STATICFILES_DIRS = [BASE_DIR.child('static')]
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.9/howto/static-files/
